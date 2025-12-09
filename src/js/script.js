@@ -1,5 +1,30 @@
 "use strict";
 
+const startBtn = document.getElementById("start");
+const budgetValue = document.querySelector(".budget-value");
+const dayBudgetValue = document.querySelector(".daybudget-value");
+const levelValue = document.querySelector(".level-value");
+const expensesValue = document.querySelector(".expenses-value");
+const optionalExpensesValue = document.querySelector(".optionalexpenses-value");
+const incomeValue = document.querySelector(".income-value");
+const monthSavingsValue = document.querySelector(".monthsavings-value");
+const yearSavingsValue = document.querySelector(".yearsavings-value");
+
+const expensesItem = document.querySelectorAll(".expenses-item");
+const expensesBtn = document.querySelector(".expenses-item-btn");
+const optionalExpensesBtn = document.querySelector(".optionalexpenses-btn");
+const countBtn = document.querySelector(".count-budget-btn");
+const optionalExpensesItem = document.querySelectorAll(
+  ".optionalexpenses-item"
+);
+const incomeItem = document.querySelector("#income");
+const checkSavings = document.querySelector("#savings");
+const sumValue = document.querySelector("#sum");
+const percentValue = document.querySelector("#percent");
+const dayValue = document.querySelector(".day-value");
+const monthValue = document.querySelector(".month-value");
+const yearValue = document.querySelector(".year-value");
+
 let money, time;
 
 function start() {
