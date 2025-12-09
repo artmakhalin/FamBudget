@@ -51,18 +51,18 @@ expensesBtn.addEventListener("click", () => {
   let sum = 0;
   for (let i = 0; i < expensesItem.length; i++) {
     let name = expensesItem[i].value;
-    let price = expensesItem[++i].value;
+    let amount = expensesItem[++i].value;
 
     if (
       typeof name === "string" &&
       typeof name != null &&
       typeof price != null &&
       name != "" &&
-      price != "" &&
+      amount != "" &&
       name.length < 50
     ) {
-      appData.expenses[name] = price;
-      sum += +price;
+      appData.expenses[name] = amount;
+      sum += +amount;
     } else {
       alert("Enter expenses!");
       i--;
