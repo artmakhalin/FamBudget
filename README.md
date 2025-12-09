@@ -33,17 +33,13 @@ A simple and intuitive web application that helps calculate monthly and daily bu
 
 ---
 
-## 🖥 Live Demo (optional)
-
-👉 _Add link when deployed (Netlify, Vercel, GitHub Pages)_
-
----
-
 ## 📁 Project Structure
 
-📦 root
-┣ 📂 css
-┃ ┗ style.css
-┣ 📂 js
-┃ ┗ script.js
-┣ 📄 index.html
+```text
+📦 money-keeper
+├── 📂 css
+│   └── style.css
+├── 📂 js
+│   └── script.js
+├── index.html
+└── README.md
